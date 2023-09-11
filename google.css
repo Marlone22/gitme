@@ -1,0 +1,135 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 10;
+}
+nav a {
+    font-size: 12px;
+    display: inline-block;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    padding: 5px 5px;
+}
+nav a img {
+    border-radius: 50%;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav button {
+    border: 1px;
+    outline: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.section {
+    justify-content: center;
+    
+}
+.section-1 {
+    display: block;
+    margin:0px auto;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+.s-box {
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
+.s-box .s-input {
+    display: block;
+    border: 1px solid #ddd;
+    color: black;
+    font-size: 15px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+}
+.s-box .search-icon {
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+.s-box .mic-icon {
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 24px;
+}
+.s-btn {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+    outline: none;
+}
+.lang {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(2, 0, 6);
+}
+.lang a {
+    margin-left: 5px;
+    color: blue;
+}
+footer {
+    background: #f2f2f2;
+    margin-top: auto;
+    margin-bottom:5px;
+}
+footer h4 {
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-left: 30px;
+    border: 1px solid;
+}
+footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 12px;
+    font-size: 14px;
+}
+.footer1 {
+    border-top: 1px solid;
+    display: flex;
+}
+.footer2 {
+    padding-left: 20px;
+    flex: 1;
+}
+.footer3 {
+    padding-right: 20px;
+    flex: 1;
+
+}
