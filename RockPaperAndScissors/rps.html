@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="rps.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="playArea" style="display: none;">
+    <p id="userData">Sample</p>
+    </div>
+
+    <h1>ROCK PAPER AND SCISSOR</h1>
+
+    <div class="scoreboard">
+        <div id="user" class="badge">USER </div>
+        <div id="computer" class="badge">COMPUTER </div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper beats rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="https://img.icons8.com/plasticine/100/rock.png" alt="rock"/>
+        </div>
+        <div class="choice" id="Paper">
+           <img src="https://img.icons8.com/color/48/paper-waste.png" alt="paper">
+        </div>
+        <div class="choice" id="Scissor">
+            <img src="https://img.icons8.com/external-filled-outline-design-circle/64/external-Scissor-startup-and-development-filled-outline-design-circle.png" alt="Scissor">
+        </div>
+    </div>
+    <button id="start">Let's play!</button>
+
+    
+    <script src="rps.js"></script>
+</body>
+</html>
