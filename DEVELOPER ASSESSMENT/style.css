@@ -59,6 +59,12 @@ body {
   left: -4rem;
   
 }
+#logo {
+  width: 700px;
+  height: 500px;
+  top: -9rem;
+  left: -4rem;
+} 
 .box7 {
   cursor: pointer;
   width: 9rem;
