@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  background-image: url("https://github.com/Marlone22/gitpractice/blob/main/background.png?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.box2 {
+  position: absolute;
+  top: -10rem;
+  bottom: 0;
+  right: 0;
+  left: -7rem;
+}
+
+.box3 {
+  position: absolute;
+  top: -20rem;
+  right: -33rem;
+}
+.box4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.box5 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: 40rem;
+}
+
+.box6 {
+  position: absolute;
+  top: -9rem;
+  left: -4rem;
+  
+}
+.box7 {
+  cursor: pointer;
+  width: 9rem;
+  height: 5rem;
+  border: none;
+  border-radius: 5%;
+  background-image: url("replay.png");
+  background-position-x: -135px;
+  background-position-y: -13px;
+  background-size: calc(440px);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 19rem;
+  left: 33rem;
+}
